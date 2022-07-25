@@ -469,6 +469,7 @@ body.dark .paragraph-intro .text-span {
   flex-direction: column;
   align-items: center;
   color: #292c35;
+  row-gap: 5rem
 }
 
 .wrap_about > div h1 {
