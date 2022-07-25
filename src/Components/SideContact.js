@@ -4,7 +4,7 @@ import { MdOutlineAlternateEmail } from 'react-icons/md'
 import { BsLinkedin } from 'react-icons/bs'
 import { RiHome2Line } from 'react-icons/ri'
 import { BsPerson } from 'react-icons/bs'
-import { BsEnvelope } from 'react-icons/bs'
+import { AiOutlineProject } from 'react-icons/ai'
 import lightLogo from '../img/light-mode-mobile.svg'
 import darkLogo from '../img/dark-mobile-logo.svg'
 
@@ -66,7 +66,7 @@ export default class SideContact extends React.Component {
                 href="#projects"
                 className="w-inline-block"
               >
-                <BsEnvelope size="1.4em" />
+                <AiOutlineProject size="1.4em" />
               </a>
             </div>
           </div>
