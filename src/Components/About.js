@@ -5,6 +5,7 @@ import lightDiamond from '../img/lightDiamond.svg'
 import diamond from '../img/darkDiamond.svg'
 import lightHeart from '../img/lightModeLove.svg'
 import heart from '../img/darkModeLove.svg'
+import Resume from './Resume.pdf'
 
 import { SiShopify } from 'react-icons/si'
 import { SiJavascript } from 'react-icons/si'
@@ -32,9 +33,11 @@ export default class About extends React.Component {
     return (
       <div id="about" className="page_wrapper">
         <div className="wrap_about">
-          <div>
-            <h1>Let Me Introduce Myself</h1>
+          <div className='intro_header'>
+            <h1>Let Me Introduce Myself : </h1>
+            <h2 className='resume_link'>My Resume:  <a href={Resume} target="_blank">Here</a></h2>
           </div>
+
 
           <div className="info_wrapper">
             <div class="flex">

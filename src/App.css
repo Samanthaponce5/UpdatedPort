@@ -469,7 +469,7 @@ body.dark .paragraph-intro .text-span {
   flex-direction: column;
   align-items: center;
   color: #292c35;
-  row-gap: 5rem
+  row-gap: 3rem
 }
 
 .wrap_about > div h1 {
@@ -556,6 +556,15 @@ body.dark .card {
 .about-intro {
   line-height: 2;
   font-family: Roboto, sans-serif;
+}
+.resume_link a{
+  color: inherit;
+}
+.resume_link{
+  margin: 5px;
+}
+.intro_header{
+  text-align: center;
 }
 .tech_task {
   width: 100%;
