@@ -35,7 +35,7 @@ export default class About extends React.Component {
         <div className="wrap_about">
           <div className='intro_header'>
             <h1>Let Me Introduce Myself : </h1>
-            <h2 className='resume_link'>My Resume:  <a href={Resume} target="_blank">Here</a></h2>
+            {/* <h2 className='resume_link'>My Resume:  <a href={Resume} target="_blank">Here</a></h2> */}
           </div>
 
 
