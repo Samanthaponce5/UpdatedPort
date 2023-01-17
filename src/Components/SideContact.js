@@ -33,7 +33,7 @@ export default class SideContact extends React.Component {
                 <MdOutlineAlternateEmail />
               </a>
             </div>
-            <div className="">
+            {/* <div className="">
               <a
                 href="https://www.instagram.com/samantha_pnce/"
                 target="_blank"
@@ -41,7 +41,7 @@ export default class SideContact extends React.Component {
               >
                 <BsInstagram />
               </a>
-            </div>
+            </div> */}
           </div>
          
           <div className="item-block menu">
