@@ -6,6 +6,9 @@ import diamond from '../img/darkDiamond.svg'
 import lightHeart from '../img/lightModeLove.svg'
 import heart from '../img/darkModeLove.svg'
 import Resume from './Resume.pdf'
+import { SiJest } from "react-icons/si";
+import { SiGitlab } from "react-icons/si";
+import { SiAbstract } from "react-icons/si";
 
 import { SiShopify } from 'react-icons/si'
 import { SiJavascript } from 'react-icons/si'
@@ -22,6 +25,8 @@ import { DiRuby } from 'react-icons/di'
 import { SiRedux } from 'react-icons/si'
 import { SiPostgresql } from 'react-icons/si'
 import { SiPostman } from 'react-icons/si'
+import { SiFigma } from "react-icons/si";
+
 import { SiNextdotjs } from 'react-icons/si'
 import { FaGitAlt } from 'react-icons/fa'
 import { DiResponsive } from 'react-icons/di'
@@ -203,6 +208,30 @@ export default class About extends React.Component {
                   <DiResponsive size="6em" />
                 </span>
                 <span>RESPONSIVE DESIGN</span>
+              </li>
+              <li>
+                <span>
+                <SiJest  size="3em"  />
+                </span>
+                <span>JEST</span>
+              </li>
+              <li>
+                <span>
+                <SiGitlab size="3rem"/>
+                </span>
+                <span>GITLAB</span>
+              </li>
+              <li>
+                <span>
+                <SiFigma size="3rem"/>
+                </span>
+                <span>FIGMA</span>
+              </li>
+              <li>
+                <span>
+                <SiAbstract size="3rem"/>
+                </span>
+                <span>ABSTRACT</span>
               </li>
             </ul>
           </div>
